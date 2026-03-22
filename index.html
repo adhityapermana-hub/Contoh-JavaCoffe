@@ -219,44 +219,6 @@
         <div class="copyright"><p>&copy; 2025 Java Coffee Signature. Coffee lovers.</p></div>
     </footer>
 
-    <!-- TOMBOL DARURAT (BUKA WEBSITE LANGSUNG) -->
-    <div class="emergency-buttons">
-        <!-- <button class="emergency-btn btn-open-emergency" id="emergencyOpenBtn" title="Buka Website Sekarang">
-            🔓
-        </button> -->
-        <button class="emergency-btn btn-admin-emergency" id="emergencyAdminBtn" title="Panel Admin">
-            🔒
-        </button>
-    </div>
-
-    <!-- MODAL LOGIN ADMIN -->
-    <div id="adminLoginModal" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:10002; display:none; align-items:center; justify-content:center;">
-        <div style="background:white; padding:30px; border-radius:20px; width:300px; text-align:center;">
-            <i class="fas fa-shield-alt" style="font-size:50px; color:#b87c4f;"></i>
-            <h3 style="margin:15px 0;">Admin Login</h3>
-            <input type="password" id="adminPassInput" placeholder="Password" style="width:100%; padding:12px; border:1px solid #ddd; border-radius:30px; margin-bottom:15px;">
-            <button id="adminLoginBtn" style="width:100%; background:#b87c4f; color:white; border:none; padding:12px; border-radius:30px; cursor:pointer; font-weight:bold;">Login</button>
-            <p id="loginErrorMsg" style="color:red; margin-top:10px;"></p>
-        </div>
-    </div>
-
-    <!-- PANEL ADMIN -->
-    <div id="adminPanelBox" style="position:fixed; bottom:100px; right:20px; width:280px; background:white; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.2); z-index:10001; display:none; overflow:hidden;">
-        <div style="background:#b87c4f; color:white; padding:15px; display:flex; justify-content:space-between;">
-            <span><i class="fas fa-lock"></i> Panel Admin</span>
-            <button id="closePanelBtn" style="background:none; border:none; color:white; font-size:20px; cursor:pointer;">&times;</button>
-        </div>
-        <div style="padding:20px;">
-            <div style="background:#f5efe8; padding:12px; border-radius:12px; margin-bottom:20px; text-align:center;">
-                <span id="statusIconDisplay">🟢</span>
-                <span id="statusTextDisplay" style="font-weight:bold;">Website BUKA</span>
-            </div>
-            <button id="openSiteBtnPanel" style="background:#34A853; color:white; border:none; padding:12px; border-radius:40px; width:100%; margin-bottom:10px; font-weight:bold; cursor:pointer;">🟢 Buka Website</button>
-            <button id="closeSiteBtnPanel" style="background:#EA4335; color:white; border:none; padding:12px; border-radius:40px; width:100%; margin-bottom:15px; font-weight:bold; cursor:pointer;">🔴 Tutup Website</button>
-            <div style="background:#fff3e0; padding:10px; border-radius:10px; font-size:11px; text-align:center;">Saat ditutup, muncul halaman maintenance</div>
-        </div>
-    </div>
-
     <!-- HALAMAN MAINTENANCE -->
     <div id="maintenancePage" style="position:fixed; top:0; left:0; width:100%; height:100%; background:linear-gradient(135deg,#2c2420,#1a1410); z-index:99999; display:none; align-items:center; justify-content:center; text-align:center; color:white;">
         <div style="max-width:400px; padding:40px; background:rgba(255,255,255,0.1); border-radius:48px; margin:20px;">
