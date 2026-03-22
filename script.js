@@ -22,7 +22,7 @@ if (bookingForm) {
         }
         
         const formattedDate = date.split('-').reverse().join('/');
-        const adminNumber = '6281234567890';
+        const adminNumber = '625817252525';
         const message = `🔔 RESERVASI BARU 🔔%0A%0A👤 Nama: ${name}%0A📞 No. WA: ${phone}%0A📅 Tanggal: ${formattedDate}%0A⏰ Jam: ${time}%0A👥 Tamu: ${guests}%0A📝 Catatan: ${notes || '-'}`;
         
         window.open(`https://wa.me/${adminNumber}?text=${message}`, '_blank');
